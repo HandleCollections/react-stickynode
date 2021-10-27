@@ -20,6 +20,7 @@
     "func:local": "npm run func:build && wdio",
     "lint": "eslint --ext .js,.jsx . --fix && npm run format:check",
     "prepublish": "npm run build",
+    "prepare": "npm run build",
     "prestart": "npm run prefunc",
     "test": "jest --coverage tests/unit"
   },
