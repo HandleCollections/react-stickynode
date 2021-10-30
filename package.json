@@ -19,8 +19,8 @@
     "func:build": "rm -rf tests/functional/dist && npm run build:babel && npm run build:css && npm run build:copy && npm run build:webpack",
     "func:local": "npm run func:build && wdio",
     "lint": "eslint --ext .js,.jsx . --fix && npm run format:check",
-    "prepublish": "npm run build",
-    "prepare": "npm run build",
+    "prepublish2": "npm run build",
+    "prepare2": "npm run build",
     "prestart": "npm run prefunc",
     "test": "jest --coverage tests/unit"
   },
